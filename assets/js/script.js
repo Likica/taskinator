@@ -26,6 +26,7 @@ var taskFormHandler = function (event) {
     //send it as an argument to createTaskEl
     createTaskEl(taskDataObj);
 };
+// create task function added for easier manipulation and/or additions in the future
 var createTaskEl = function (taskDataObj) {
     // create list item
     var listItemEl = document.createElement("li");
